@@ -1,0 +1,240 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "Cascadia Code PL,Consolas, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.fontFamily": "Cascadia Code PL",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.autofetch": true,
+  // "editor.mouseWheelZoom": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+
+  "tabnine.experimentalAutoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#282c34",
+    "activityBar.background": "#282c34",
+    "sideBar.background": "#282c34",
+    "tab.activeBorder": "#2d82c7"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "italic font",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "meta.class",
+          "meta.var.expr",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro]": {
+      // Apply to this theme only
+      "enabled": true,
+      "rules": {
+        "magicFunction:python": "#ee0000",
+        "function.declaration:python": "#990000",
+        "*.decorator:python": "#0000dd",
+        "*.typeHint:python": "#5500aa",
+        "*.typeHintComment:python": "#aaaaaa",
+        "parameter:python": "#aaaaaa"
+      }
+    }
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.apk": "default",
+    "*.xlsx": "default"
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "emojisense.languages": {
+    "plaintext": {
+      "markupCompletionsEnabled": true,
+      "emojiDecoratorsEnabled": true
+    },
+    "scminput": true,
+    "git-commit": true,
+    "javascript.validate.enable": false,
+    "abap": true,
+    "bat": true,
+    "bibtex": true,
+    "clojure": true,
+    "coffeescript": true,
+    "c": true,
+    "cpp": true,
+    "csharp": true,
+    "css": true,
+    "diff": true,
+    "dockerfile": true,
+    "fsharp": true,
+    "git-rebase": true,
+    "go": true,
+    "groovy": true,
+    "handlebars": true,
+    "html": true,
+    "ini": true,
+    "java": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "json": true,
+    "jsonc": true,
+    "latex": true,
+    "less": true,
+    "lua": true,
+    "makefile": true,
+    "markdown": true,
+    "objective-c": true,
+    "objective-cpp": true,
+    "perl6": true,
+    "php": true,
+    "powershell": true,
+    "jade": true,
+    "python": true,
+    "r": true,
+    "razor": true,
+    "ruby": true,
+    "rust": true,
+    "scss": true,
+    "sass": true,
+    "shaderlab": true,
+    "shellscript": true,
+    "sql": true,
+    "swift": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "tex": true,
+    "vb": true,
+    "xml": true,
+    "xsl": true,
+    "yaml": true
+  },
+  "workbench.startupEditor": "none",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "jupyter.askForKernelRestart": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "debug.openDebug": "openOnFirstSessionStart",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "cmake.configureOnOpen": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\aw_mo\\anaconda3\\envs\\data_science\\python.exe",
+  "git.confirmSync": false,
+  "yaml.schemas": {
+    "file:///c%3A/Users/aw_mo/.vscode/extensions/atlassian.atlascode-3.0.15/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.jira.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnSave": true,
+  "prisma.showPrismaDataPlatformNotification": false
+}
